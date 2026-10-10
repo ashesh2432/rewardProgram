@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+  margin: 0;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  margin-bottom: 32px;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background: #2d3a4b;
+  color: #fff;
+}
+td.total {
+  font-weight: bold;
+  background: #eef6ff;
+}
+.status {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 18px;
+}
+.error {
+  color: #c0392b;
+}
