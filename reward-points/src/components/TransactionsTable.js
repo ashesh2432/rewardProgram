@@ -1,34 +1,3 @@
-// import React from "react";
-// import { calculatePoints } from "../utils/rewards";
-
-// const TransactionsTable = ({ transactions }) => (
-//   <table>
-//     <thead>
-//       <tr>
-//         <th>ID</th>
-//         <th>Customer</th>
-//         <th>Date</th>
-//         <th>Amount</th>
-//         <th>Points</th>
-//       </tr>
-//     </thead>
-    
-//     <tbody>
-//       {transactions.map((t) => (
-//         <tr key={t.id}>
-//           <td>{t.id}</td>
-//           <td>{t.customerName}</td>
-//           <td>{t.date}</td>
-//           <td>${t.amount.toFixed(2)}</td>
-//           <td>{calculatePoints(t.amount)}</td>
-//         </tr>
-//       ))}
-//     </tbody>
-//   </table>
-// );
-
-// export default TransactionsTable;
-
 import React, { useState, useMemo } from "react";
 import { calculatePoints } from "../utils/rewards";
 
